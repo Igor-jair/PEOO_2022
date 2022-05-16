@@ -1,2 +1,2 @@
 language = "bash"
-run = "mcs -out:Main.exe './aula_0513/bemvindo.cs' ; mono Main.exe"
+run = "mcs -out:Main.exe './Lista 1/Ex02.cs' ; mono Main.exe"
