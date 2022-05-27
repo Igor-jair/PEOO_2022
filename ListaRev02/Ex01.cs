@@ -6,17 +6,12 @@ public class Program {
     string y = Console.ReadLine();
     int a = int.Parse(x);
     int b = int.Parse(y);
-    if (a > b)
-    {
-      Console.WriteLine("Maior = " + a);
-    }
-    else if (b > a)
-    {
-      Console.WriteLine("Maior = " + b);
-    }
-    else if (a == b)
-    {
-      Console.WriteLine("Números iguais");
-    }
+    
+    if (a > b){Console.WriteLine("Maior = " + a);}
+    
+    else if (b > a){Console.WriteLine("Maior = " + b);}
+    
+    else if (a == b){Console.WriteLine("Números iguais");}
+    
   }
-}
+} 
