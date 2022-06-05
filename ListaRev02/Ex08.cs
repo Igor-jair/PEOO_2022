@@ -7,3 +7,6 @@ public class Program {
     int d = int.Parse(Console.ReadLine());
     int menor = a;
     if (b < menor) menor = b;
+    if (c < menor) menor = b;
+    if (d < menor) menor = b;
+    if (b < menor) menor = b;
